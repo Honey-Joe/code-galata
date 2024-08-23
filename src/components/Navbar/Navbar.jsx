@@ -17,16 +17,16 @@ const Navbar = () => {
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/"}>Home</Link>
                     </li>
-                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 ">
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0  hover:text-[#1176F0]">
                       <Link to={"/course"}>Course</Link>
                     </li>
-                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/about"}>About us</Link>
                     </li>
-                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/contact"}>Contact</Link>
                     </li>
-                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <p>Blog</p>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
