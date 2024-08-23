@@ -6,6 +6,7 @@ import Navbar from '../Navbar/Navbar'
 const Courseroute = () => {
   return (
     <div>
+      
       <Navbar></Navbar>
       <Header></Header>
       <Body></Body>
