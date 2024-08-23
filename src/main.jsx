@@ -7,11 +7,13 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Courseroute from "./components/Courseroute/Courseroute";
 import Aboutroute from "./components/Aboutroute/Aboutroute";
 import Contactroute from "./components/Contactroute/Contactroute";
+import Navbar from "./components/NavBar/Navbar";
 
 
 const Applayout  = ()=>{
   return(
     <>
+    <Navbar></Navbar>
     <Body></Body>
     <Footer></Footer>
     </>
