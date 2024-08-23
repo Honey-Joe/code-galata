@@ -21,7 +21,7 @@ const Navbar = () => {
                       <Link to={"/course"}>Course</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <p to={"/about"}>About us</p>
+                      <Link to={"/about"}>About us</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
                       <Link to={"/contact"}>Contact</Link>

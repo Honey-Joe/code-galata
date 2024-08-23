@@ -7,7 +7,7 @@ const Contactroute = () => {
   return (
     <div>
       <Navbar></Navbar>
-\      <Body></Body>
+      <Body></Body>
       <Footer></Footer>
     </div>
   )
