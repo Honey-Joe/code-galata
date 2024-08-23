@@ -3,7 +3,6 @@ export const profile = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Overla
 
 // navlogo 
 export const navlogo = "https://ik.imagekit.io/jjyo3gsee/images/navlogo-removebg-preview.png?updatedAt=1724435155303";
-<<<<<<< HEAD
 // export const navlogo = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/footerlogo-removebg-preview.png?updatedAt=1724423932603";
 
 // home page profile 
@@ -14,7 +13,6 @@ export const design = "https://ik.imagekit.io/jjyo3gsee/images/design.png?update
 export const suganth = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/suganth.jpeg?updatedAt=1724425603905";
 // bulp 
 export const blup = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/bulb.png?updatedAt=1724444840445"
-=======
 export const navlogo1 = "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/footerlogo-removebg-preview.png?updatedAt=1724423932603";
 export const author_image = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/suganth.jpeg.jpg?updatedAt=1724426232956";
 export const certifcate = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/certificate.png?updatedAt=1723830421725";
@@ -48,4 +46,3 @@ export const icon4 = "https://ik.imagekit.io/jjyo3gsee/Rainbow%20Themes/rainbow%
 
 // contact images 
 export const contactimg =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/suganth.jpeg?updatedAt=1724425603905"
->>>>>>> 745fe2da06e9acee5f9fe387996d4545f541ede3
