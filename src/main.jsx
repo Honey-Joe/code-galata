@@ -19,7 +19,7 @@ const Applayout  = ()=>{
 }
 const appRouter = createBrowserRouter([
   {
-    path:"/course",
+    path:"/contact",
     element:<Contactroute></Contactroute>
   },
   {

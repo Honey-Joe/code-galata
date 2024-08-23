@@ -24,7 +24,7 @@ const Navbar = () => {
                       <p to={"/about"}>About us</p>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <p to={"/contact"}>Contact</p>
+                      <Link to={"/contact"}>Contact</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
                       <p>Blog</p>
