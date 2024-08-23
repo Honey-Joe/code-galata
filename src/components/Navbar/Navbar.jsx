@@ -1,4 +1,4 @@
-import { ChevronDown, } from "lucide-react"
+import { ChevronDown,MoveRight } from "lucide-react"
 const Navbar = () => {
   return (
     <>
