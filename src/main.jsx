@@ -1,7 +1,8 @@
 import ReactDOM from "react-dom/client"
 import Body from "./components/Body/Body";
-import Footer from "./components/Footer/Footer";
+
 import "./index.css"
+import Footer from "./components/Footer/Footer";
 
 
 const Applayout  = ()=>{
