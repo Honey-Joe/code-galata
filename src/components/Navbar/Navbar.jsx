@@ -1,55 +1,53 @@
-import { ChevronDown,MoveRight } from "lucide-react"
+import { Menu } from "lucide-react";
+import { navlogo } from "../../assets/image";
+import { useState } from "react";
 const Navbar = () => {
   return (
     <>
-    <div className="2xl:container bg-black mx-auto">
-            <div className="w-[90%] mx-auto">
-                <div className=" text-white grid grid-cols-2 gap-5 lg:grid-cols-4 py-5 items-center justify-between">
-                    <div className=" flex gap-3 items-center text-white justify-start ">
-                        {/* <img src={logowhite} alt="logo"/> */}
-                    </div>
-                    <div className="hidden lg:flex justify-center col-span-2">
-                        <ul className="flex items-center md:gap-5 lg:gap-7 justify-center">
-                            <li>
-                                <div className="flex gap-1 items-center">
-                                <p className="font-[firesans-r] font-medium text-base cursor-pointer hover:text-[#ff3c00] flex gap-1 text-[16px] items-center text-white">Home <ChevronDown className=" h-5"/></p> 
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex gap-1">
-                                <p className="font-[firesans-r] font-medium text-base text-white cursor-pointer hover:text-[#ff3c00] flex gap-1 text-[16px] items-center">Company <ChevronDown className=" h-5"/></p> 
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex gap-1">
-                                <p className="font-[firesans-r] font-medium text-base text-white cursor-pointer hover:text-[#ff3c00] flex gap-1 text-[16px]">Portfolio</p> 
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex gap-1">
-                                <p className="font-[firesans-r] font-medium text-base text-white cursor-pointer hover:text-[#ff3c00] flex gap-1 text-[16px] items-center">Service <ChevronDown className=" h-5"/></p> 
-                                </div>
-                            </li>
-                            <li>
-                                <div className="flex gap-1">
-                                <p className="font-[firesans-r] font-medium text-base text-white cursor-pointer hover:text-[#ff3c00] flex gap-1 text-[16px] items-center">Blog <ChevronDown className=" h-5"/></p> 
-                                </div>
-                            </li>
-                            <li>
-                                <p className="font-[firesans-r] font-medium text-base text-white cursor-pointer hover:text-[#ff3c00] flex gap-1 text-[16px] items-center">Contact</p> 
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="flex justify-end ">
-                        <button className=" flex gap-1 text-[#ff3c00] font-medium">
-                            GET A QUOTE NOW <MoveRight /> 
-                        </button>
-                    </div>
-                </div>  
+      <div className="2xl:container mx-auto bg-white">
+        <div className="w-[90%]  grid grid-cols-2 mx-auto my-5 items-center justify-between">
+          <div className="">
+            <img src={navlogo} alt="logo" width={100} />
+          </div>
+          <div className="flex items-center justify-end">
+            <div className="lg:block hidden" id="show">
+              <div className=" lg:flex gap-20 absolute  left-0 top-20 lg:static bg-white w-[100%] z-20">
+                <div>
+                  <ul className=" lg:flex gap-4 items-center justify-center ">
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                      <p>Home</p>
+                    </li>
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 ">
+                      <p>Course</p>
+                    </li>
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                      <p>About us</p>
+                    </li>
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                      <p>Contact</p>
+                    </li>
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                      <p>Blog</p>
+                    </li>
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
+                      <button className="bg-blue-500 px-3 py-1 rounded-lg text-white ">Log in </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
+            <Menu
+              className="lg:hidden"
+              onClick={() => {
+                const nav = document.getElementById("show");
+                nav.classList.toggle("hidden");
+              }}
+            ></Menu>
+          </div>
         </div>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
