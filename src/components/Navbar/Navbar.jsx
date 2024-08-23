@@ -15,10 +15,10 @@ const Navbar = () => {
                 <div>
                   <ul className=" lg:flex gap-4 items-center justify-center ">
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <p to={"/"}>Home</p>
+                      <Link to={"/"}>Home</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 ">
-                      <p to={"/course"}>Course</p>
+                      <Link to={"/course"}>Course</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
                       <p to={"/about"}>About us</p>
