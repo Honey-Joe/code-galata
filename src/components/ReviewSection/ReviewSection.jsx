@@ -44,7 +44,7 @@ function ReviewSection() {
   };
   return (
     <>
-      <div className="2xl:container">
+      <div className="2xl:container mx-auto">
         <div className="w-[80%] mx-auto grid grid-cols-1 my-11 gap-4 px-5 py-2">
           <div className="flex items-center justify-center flex-col gap-3">
             <div className="bg-[#FAECF1] px-4 rounded-full py-2">

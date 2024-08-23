@@ -1,7 +1,7 @@
 import { Menu } from "lucide-react";
-import { navlogo } from "../../assets/image";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { navlogo } from "../../../assets/image";
 const Navbar = () => {
   return (
     <>
@@ -12,20 +12,20 @@ const Navbar = () => {
           </div>
           <div className="flex items-center justify-end">
             <div className="lg:block hidden" id="show">
-              <div className=" lg:flex gap-20 absolute  left-0 top-20 lg:static bg-white w-[100%] z-50">
+              <div className=" lg:flex gap-20 absolute  left-0 top-20 lg:static bg-white w-[100%] z-20">
                 <div>
                   <ul className=" lg:flex gap-4 items-center justify-center ">
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <Link to={"/"}>Home</Link>
+                      <p>Home</p>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 ">
                       <Link to={"/course"} >Course</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <Link to={"/about"}>About us</Link>
+                      <p>About us</p>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <Link to={"/contact"}>Contact</Link>
+                      <p>Contact</p>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
                       <p>Blog</p>
