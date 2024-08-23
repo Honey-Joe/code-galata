@@ -14,7 +14,7 @@ const Navbar = () => {
               <div className=" lg:flex gap-20 absolute  left-0 top-20 lg:static bg-white w-[100%] z-50">
                 <div>
                   <ul className=" lg:flex gap-4 items-center justify-center ">
-                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
+                    <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 hover:text-[#1176F0]">
                       <Link to={"/"}>Home</Link>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 ">
