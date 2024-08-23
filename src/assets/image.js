@@ -13,3 +13,7 @@ export const rainbow_logo ="https://ik.imagekit.io/HoneyJoe/Rainbow%20theme/rain
 export const quote2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/qoute.png?updatedAt=1724256217936"
 export const profile2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Overlay+Border.png?updatedAt=1724256590301"
 
+// faq section profile 
+export const profile3 =  "https://ik.imagekit.io/jjyo3gsee/pimg3/faq.png?updatedAt=1724257255673";
+export const shaper = "https://ik.imagekit.io/jjyo3gsee/pimg3/shape-6.png?updatedAt=1724257255452";
+export const shaped= "https://ik.imagekit.io/jjyo3gsee/pimg3/shape.png?updatedAt=1724257255297";

@@ -16,6 +16,38 @@
   src: url(./assets/font/Hind-Regular.ttf);
   
 }
+@font-face {
+  font-family: helvetica;
+  src: url(./assets/font/Helvetica.ttf);
+}
+@font-face {
+  font-family: helvetica-b;
+  src: url(./assets/font/Helvetica-Bold.ttf);
+}
+@font-face {
+  font-family: helvetica-bo;
+  src: url(./assets/font/Helvetica-BoldOblique.ttf);
+}
+@font-face {
+  font-family:manrope;
+  src: url(./assets/font/manrope-regular.otf);
+}
+@font-face {
+  font-family: manrope-eb;
+  src: url(./assets/font/manrope-extrabold.otf);
+}
+@font-face {
+  font-family: manrope-l;
+  src: url(./assets/font/manrope-light.otf);
+}
+@font-face {
+  font-family: manrope-m;
+  src: url(./assets/font/manrope-medium.otf);
+}
+@font-face {
+  font-family: manrope-b;
+  src: url(./assets/font/manrope-bold.otf);
+}
 
 #move{
   transition: width 0.5s;
