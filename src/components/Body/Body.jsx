@@ -10,7 +10,6 @@ const Body = () => {
       <Home/>
       <Course></Course>
       <Topcourse></Topcourse>
-      <ReviewSection></ReviewSection>
        <ReviewSection></ReviewSection>
     </>
   )

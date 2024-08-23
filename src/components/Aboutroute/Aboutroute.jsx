@@ -1,7 +1,7 @@
 import React from 'react'
 import Body from './Body/Body'
-import Navbar from '../NavBar/Navbar'
 import Footer from '../Footer/Footer'
+import Navbar from '../Navbar/Navbar'
 const Aboutroute = () => {
   return (
     <>
