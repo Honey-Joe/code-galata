@@ -10,12 +10,8 @@ const Body = () => {
     <>
       <Navbar/>
       <Home/>
-      <ReviewSection></ReviewSection>
-      <Topcourse></Topcourse>
-      <ReviewSection></ReviewSection>
       <Course></Course>
       <Topcourse></Topcourse>
-
         <ReviewSection></ReviewSection>
     </>
   )
