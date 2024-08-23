@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../NavBar/Navbar'
 import ReviewSection from '../ReviewSection/ReviewSection'
 import Topcourse from '../Topcourse/Topcourse'
 import Home from '../Header/Home'
@@ -8,14 +7,14 @@ import Course from '../Course/Course'
 const Body = () => {
   return (
     <>
-      <Navbar/>
       <Home/>
-      <ReviewSection></ReviewSection>
-      <Topcourse></Topcourse>
-      <ReviewSection></ReviewSection>
       <Course></Course>
       <Topcourse></Topcourse>
+<<<<<<< HEAD
       <ReviewSection></ReviewSection>
+=======
+        <ReviewSection></ReviewSection>
+>>>>>>> 99c82be47b02659f485fb326dcc125b38c1c9d38
     </>
   )
 }
