@@ -8,11 +8,11 @@ const Faq = () => {
                 <div className=" grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
                     <div className=" relative">
                         <div className="">
-                            <img src={profile3} alt="Profile" className=" relative z-40"/>
-                            <img src={shaped} alt="shape" className=" absolute -top-9 right-8 z-20 lg:right-0 "/>
+                            <img src={profile3} alt="Profile" className=" relative z-20"/>
+                            <img src={shaped} alt="shape" className=" absolute -top-9 right-8 z-10 lg:right-0 "/>
                         </div>
                             
-                        <div className=" absolute xl:absolute md:absolute xl:-right-3 xl:top-[524px] bg-[#002935] lg:absolute lg:top-[400px] lg:right-0 md:right-3 md:top-[524px] py-10 px-7 pr-16 rounded-lg z-50">
+                        <div className=" absolute xl:absolute md:absolute xl:-right-3 xl:top-[524px] bg-[#002935] lg:absolute lg:top-[400px] lg:right-0 md:right-3 md:top-[524px] py-10 px-7 pr-16 rounded-lg z-30">
                             <h1 className=" font-[manrope-b] text-[22px] font-bold text-wrap text-white">Contact Us For a <span className=" text-[#1176F0]">Free Learning</span>  <br className=" lg:hidden xl:block"/> Consulting Evaluation</h1>
                             <div className=" flex items-center pt-4">
                                 <img src={shaper} alt="" />

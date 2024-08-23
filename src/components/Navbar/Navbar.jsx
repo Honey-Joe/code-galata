@@ -12,7 +12,7 @@ const Navbar = () => {
           </div>
           <div className="flex items-center justify-end">
             <div className="lg:block hidden" id="show">
-              <div className=" lg:flex gap-20 absolute  left-0 top-20 lg:static bg-white w-[100%] z-20">
+              <div className=" lg:flex gap-20 absolute  left-0 top-20 lg:static bg-white w-[100%] z-50">
                 <div>
                   <ul className=" lg:flex gap-4 items-center justify-center ">
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
