@@ -1,10 +1,11 @@
 import React from 'react'
+import ReviewSection from '../ReviewSection/ReviewSection'
 
 const Body = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+        <ReviewSection></ReviewSection>
+    </>
   )
 }
 
