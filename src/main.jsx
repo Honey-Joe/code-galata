@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom/client"
 import Body from "./components/Body/Body";
-
 import "./index.css"
 import Footer from "./components/Footer/Footer";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
@@ -8,7 +7,6 @@ import Courseroute from "./components/Courseroute/Courseroute";
 import Aboutroute from "./components/Aboutroute/Aboutroute";
 import Contactroute from "./components/Contactroute/Contactroute";
 import Navbar from "./components/NavBar/Navbar";
-
 
 const Applayout  = ()=>{
   return(
