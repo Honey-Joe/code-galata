@@ -15,8 +15,7 @@ const Body = () => {
       <ReviewSection></ReviewSection>
       <Course></Course>
       <Topcourse></Topcourse>
-
-        <ReviewSection></ReviewSection>
+      <ReviewSection></ReviewSection>
     </>
   )
 }
