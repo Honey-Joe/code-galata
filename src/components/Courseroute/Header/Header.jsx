@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
       <div className="3xl:container mx-auto w-[100%] bg-[#041734]">
-        <div className="w-[100%] mx-auto grid grid-cols-1 py-10 bg-[#041734]">
+        <div className="w-[100%] mx-auto grid grid-cols-1 py-24 bg-[#041734]">
           <div className="w-[78%] mx-auto">
           <div className="flex flex-col gap-3 items-start">
             <button className="px-3 pt-2 pb-1 font-[LexendDeca] font-medium text-[14px] flex items-center text-white bg-[#04BC53] rounded-full leading-none">
