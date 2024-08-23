@@ -16,7 +16,7 @@ const Navbar = () => {
                 <div>
                   <ul className=" lg:flex gap-4 items-center justify-center ">
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0">
-                      <Link to={"/"}>Home</Link>
+                      <p>Home</p>
                     </li>
                     <li className=" font-normal text-lg font-[LexendDeca] p-2 text-center lg:p-0 ">
                       <Link to={"/course"} >Course</Link>

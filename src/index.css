@@ -9,7 +9,14 @@
 @font-face {
   font-family: hindu;
   src: url(./assets/font/Hind-Regular.ttf);
+  
 }
+@font-face {
+  font-family: Hind;
+  src: url(./assets/font/Hind-Regular.ttf);
+  
+}
+
 #move{
   transition: width 0.5s;
 }

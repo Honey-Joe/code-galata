@@ -3,6 +3,8 @@ import Body from "./components/Body/Body";
 
 import "./index.css"
 import Footer from "./components/Footer/Footer";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Courseroute from "./components/Courseroute/Courseroute";
 
 
 const Applayout  = ()=>{
@@ -13,6 +15,19 @@ const Applayout  = ()=>{
     </>
   )
 }
+const approuter = createBrowserRouter([
+  {
+    path:"/",
+    element:<Applayout></Applayout>
+  },
+  {
+    path:"/course",
+    element:<Courseroute>
+      
+    </Courseroute>
+  }
+  
+])
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<Applayout></Applayout>)
+root.render(<RouterProvider router={approuter}></RouterProvider>)
