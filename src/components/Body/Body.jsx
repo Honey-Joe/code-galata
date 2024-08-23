@@ -10,11 +10,8 @@ const Body = () => {
       <Home/>
       <Course></Course>
       <Topcourse></Topcourse>
-<<<<<<< HEAD
       <ReviewSection></ReviewSection>
-=======
-        <ReviewSection></ReviewSection>
->>>>>>> 99c82be47b02659f485fb326dcc125b38c1c9d38
+       <ReviewSection></ReviewSection>
     </>
   )
 }
