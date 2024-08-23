@@ -1,15 +1,14 @@
 import React from 'react'
 import Navbar from '../NavBar/Navbar'
 import ReviewSection from '../ReviewSection/ReviewSection'
+import Topcourse from '../Topcourse/Topcourse'
 
 const Body = () => {
   return (
     <>
       <Navbar/>
-<<<<<<< HEAD
-=======
+      <Topcourse></Topcourse>
         <ReviewSection></ReviewSection>
->>>>>>> 6531f88703b2a1edfeb8c44d7becb9f0923424ce
     </>
   )
 }
