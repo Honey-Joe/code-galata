@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Courseroute from "./components/Courseroute/Courseroute";
 import Aboutroute from "./components/Aboutroute/Aboutroute";
+import Contactroute from "./components/Contactroute/Contactroute";
 
 
 const Applayout  = ()=>{
@@ -30,6 +31,10 @@ const approuter = createBrowserRouter([
   {
     path:"/about",
     element:<Aboutroute></Aboutroute>
+  },
+  {
+    path:"/contact",
+    element:<Contactroute></Contactroute>
   }
   
 ])
