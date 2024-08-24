@@ -48,6 +48,10 @@
   font-family: manrope-b;
   src: url(./assets/font/manrope-bold.otf);
 }
+@font-face {
+  font-family: poppins;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
 
 #move{
   transition: width 0.5s;
