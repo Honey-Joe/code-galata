@@ -10,8 +10,8 @@ const Body = () => {
     <>
       {/* <Course></Course> */}
       <Topcourse></Topcourse>
-       <ReviewSection></ReviewSection>
        <HowWeWork/>
+       <ReviewSection></ReviewSection>
        <NewsLetter/>
     </>
   )
