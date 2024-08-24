@@ -4,18 +4,18 @@ import Topcoursecard from "../Topcoursecard/Topcoursecard";
 const Topcourse = () => {
   return (
     <>
-      <div classname="2xl:container">
-        <div className="w-[80%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
+      <div classname="2xl:container mx-auto">
+        <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
           <div className="flex items-start flex-col gap-3">
-            <div className="bg-[#FAECF1] px-4 rounded-full py-2 flex items-start">
-              <p className="font-[LexendDeca] text-[14px] font-medium text-[#db7093]">
+            <div className="bg-[#2f55ef40] px-4 rounded-full py-2 flex items-start">
+              <p className="font-[LexendDeca] text-[14px] font-medium text-[#1176F0]">
                 Top Courses
               </p>
             </div>
             <div>
               <p className="font-[LexendDeca] font-bold text-[30px] text-[#192335]">
                 More Course By{" "}
-                <span className="text-[#2f57ef]">Code Gallata</span>
+                <span className="text-[#1176F0]">Code Gallata</span>
               </p>
             </div>
           </div>
@@ -23,9 +23,9 @@ const Topcourse = () => {
             <div>
               <a
                 href="#_"
-                class="relative inline-flex items-center justify-center p-4 px-10 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-[#e6e3f1] rounded-lg group hover:-translate-y-1"
+                class="relative inline-flex items-center justify-center p-4 px-10 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-[#e6e3f1] rounded-lg group"
               >
-                <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#2f57ef] group-hover:translate-x-0 ease">
+                <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#1176F0] group-hover:translate-x-0 ease">
                   View all Course
                 </span>
                 <span class="absolute flex items-center justify-center w-full h-full text-[#192335] transition-all duration-300 transform group-hover:translate-x-full ease">
@@ -36,8 +36,7 @@ const Topcourse = () => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] grid grid-cols-1 lg:grid-cols-3 mx-auto gap-3">
-            
+        <div className="w-[90%] grid grid-cols-1 lg:grid-cols-3 mx-auto gap-8">
               {
                 Coursecarddata.map((e)=>{
                   return(

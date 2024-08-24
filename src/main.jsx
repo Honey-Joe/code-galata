@@ -6,8 +6,8 @@ import Courseroute from "./components/Courseroute/Courseroute";
 import Aboutroute from "./components/Aboutroute/Aboutroute";
 import Contactroute from "./components/Contactroute/Contactroute";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
+import Navbar from "./components/NavBar/Navbar";
 
 const Applayout  = ()=>{
   return(

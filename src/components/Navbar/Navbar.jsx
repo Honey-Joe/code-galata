@@ -6,8 +6,8 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
-      <div className="3xl:container mx-auto bg-white shadow-sm fixed top-0 w-full">
-        <div className=" w-[95%] grid grid-cols-2 lg:grid-cols-3 mx-auto my-5 items-center justify-between sticky top-0">
+      <div className="3xl:container mx-auto bg-white shadow-sm z-50 fixed top-0 w-full">
+        <div className=" w-[90%] grid grid-cols-2 lg:grid-cols-3 mx-auto my-5 items-center justify-between sticky top-0">
           <div className="">
             <img src={navlogo} alt="logo" width={100} />
           </div>

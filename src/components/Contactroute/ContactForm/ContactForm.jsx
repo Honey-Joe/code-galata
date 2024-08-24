@@ -1,13 +1,12 @@
 import { contactimg } from "../../../assets/image"
 import Button from "../Button/Button"
-
 const ContactForm = () => {
   return (
     <>
         <div>
-            <div className=" grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className=" grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
                 <div className=" w-full">
-                    <img src={contactimg} alt="Contactimage" className=" rounded-lg w-full h-full"/>
+                    <img src={contactimg} alt="Contactimage" className=" bg-cover rounded-lg w-full"/>
                 </div>
                 <div className=" shadow-md rounded-lg  px-10 py-8 bg-white">
                     <h2 className="  text-center font-[LexendDeca] text-[14px] font-bold text-[#2F57EF] bg-[#E4E9FD] py-2 px-6  rounded-full w-fit">EDUCATION FOR EVERYONE</h2>

@@ -78,6 +78,51 @@
   background-image: linear-gradient(220deg, #1176F0 55%, #5BA5FF 56%);
   /* transform: rotate3d(0, 1, 0.5, 3.142rad); */
 } 
+
+@media screen and (min-width: 1285px) {
+  #change{
+    display: flex;
+    flex-direction:  row;
+  }
+}
+@media screen and (min-width: 1441px) and (max-width: 1920px){
+  #text{
+    padding: 0px 280px;
+    padding-top: 14px;
+  }
+  #change{
+    display: flex;
+    flex-direction:  row;
+  }
+}
+
+#student{
+  position: relative;
+}
+#student::after{
+  content: '';
+  bottom: 3.5px;
+  width: 100%;
+  height: 1.3px;
+  background-color: #1A2D62;
+  position: absolute;
+}
+#course{
+  position: relative;
+}
+#course::after{
+  content: '';
+  bottom: 3.5px;
+  width: 100%;
+  height: 1.3px;
+  background-color: #1A2D62;
+  position: absolute;
+}
+
+#move{
+  transition: width 0.5s;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

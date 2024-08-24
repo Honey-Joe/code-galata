@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <>
         <div className=" 2xl:container mx-auto"> 
-            <div className=" w-[90%] lg:w-[90%] mx-auto">
+            <div className=" w-[90%] lg:w-[90%] mx-auto mt-20">
                 <div className=" grid grid-cols-1 md:grid-cols-2 w-full items-center">
                     <div className=" order-2 md:order-1 lg:pt-0">
-                        <div className=" pt-8 md:pt-12 flex gap-2 ">
+                        <div className=" pt-8 md:pt-12 flex gap-2">
                             <img src={blup} alt="blup" width={23} height={23} />
                             <p className=" font-[LexendDeca] text-[#553cdf]">Gateway to Lifelong Learning</p>
                         </div>
@@ -36,7 +36,7 @@ const Header = () => {
                         </div>
 
                     </div>
-                    <div className=" md:order-2 order-1">
+                    <div className=" md:order-2 order-1 lg:flex justify-end">
                         <img src={homeProfile} alt="home" />
                     </div>
                 </div>

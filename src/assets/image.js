@@ -24,7 +24,7 @@ export const quote2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/qoute.p
 export const profile2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Overlay+Border.png?updatedAt=1724256590301"
 
 // faq section profile 
-export const profile3 =  "https://ik.imagekit.io/jjyo3gsee/pimg3/faq.png?updatedAt=1724257255673";
+export const profile3 =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/amico.png?updatedAt=1724493428593";
 export const shaper = "https://ik.imagekit.io/jjyo3gsee/pimg3/shape-6.png?updatedAt=1724257255452";
 export const shaped= "https://ik.imagekit.io/jjyo3gsee/pimg3/shape.png?updatedAt=1724257255297";
 export const logo = "https://ik.imagekit.io/HoneyJoe/Rainbow%20theme/rainbow%20theme/logo.png?updatedAt=1723538361812"
@@ -45,4 +45,4 @@ export const icon3 = "https://ik.imagekit.io/jjyo3gsee/Rainbow%20Themes/rainbow%
 export const icon4 = "https://ik.imagekit.io/jjyo3gsee/Rainbow%20Themes/rainbow%20img/Icon.png?updatedAt=1723694543038"
 
 // contact images 
-export const contactimg =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/suganth.jpeg?updatedAt=1724425603905"
+export const contactimg =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/rafiki.png?updatedAt=1724493855282"

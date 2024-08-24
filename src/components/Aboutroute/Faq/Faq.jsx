@@ -1,29 +1,27 @@
 import { profile3, shaped, shaper } from "../../../assets/image"
 import FaqAccodion from "../Accodion/FaqAccodion"
+import { Phone } from "lucide-react"
 const Faq = () => {
   return (
     <>
-        <div className=" 2xl:container mx-auto bg-[#F5F5F5] pb-20">
-            <div className="lg:w-[93%] xl:w-[85%] mx-auto py-20 w-[90%]">
+        <div className=" 2xl:container mx-auto bg-white pb-20 py-14">
+            <div className="lg:w-[90%] xl:w-[90%] mx-auto py-20 w-[90%]">
                 <div className=" grid grid-cols-1 lg:grid-cols-2 lg:gap-20">
                     <div className=" relative">
                         <div className="">
                             <img src={profile3} alt="Profile" className=" relative z-20"/>
-                            <img src={shaped} alt="shape" className=" absolute -top-9 right-8 z-10 lg:right-0 "/>
-                        </div>
-                            
-                        <div className=" absolute xl:absolute md:absolute xl:-right-3 xl:top-[524px] bg-[#002935] lg:absolute lg:top-[400px] lg:right-0 md:right-3 md:top-[524px] py-10 px-7 pr-16 rounded-lg z-30">
+                        </div> 
+                        <div className=" absolute xl:absolute md:absolute xl:-right-3 xl:top-[524px] bg-[#002935] lg:absolute lg:top-[400px] lg:right-0 md:right-3 md:top-[604px] py-5 px-7 rounded-lg z-30">
                             <h1 className=" font-[manrope-b] text-[22px] font-bold text-wrap text-white">Contact Us For a <span className=" text-[#1176F0]">Free Learning</span>  <br className=" lg:hidden xl:block"/> Consulting Evaluation</h1>
-                            <div className=" flex items-center pt-4">
-                                <img src={shaper} alt="" />
-                            <p className="text-[#FF3158]"><a href="tel:+91 80729 48266">+91 80729 48266</a></p>
+                            <div className="flex items-center py-3 px-3 bg-[#1176F0] mt-4 rounded-lg w-fit">
+                                <Phone className=" stroke-white "/>
+                                <p className="text-white"><a href="tel:+91 80729 48266">+91 80729 48266</a></p>
                             </div>
                         </div>
                     </div>
                     {/* FaqAccodion section  */}
-                    <div className="mt-72 md:mt-32  lg:mt-0">
+                    <div className="mt-72 md:mt-40 lg:mt-0">
                         <div>
-                        {/* bg-[#F6E2E6] */}
                             <div className=" flex items-center  gap-1">
                                 <div className=" p-2 bg-[#6daaf590] rounded-full">
                                     <div className=" h-3 w-3 bg-[#1176F0] rounded-full shadow-yellow-300"></div>
