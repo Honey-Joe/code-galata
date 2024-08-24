@@ -5,7 +5,7 @@ const Instructor = () => {
   return (
     <>
         <div className=" 2xl:container mx-auto mt-20">
-            <div className=" w-[90%] lg:w-[85%] mx-auto">
+            <div className=" w-[90%] lg:w-[90%] mx-auto">
                 <div className=" text-center">
                     <h1 className=" text-[24px] font-bold lg:text-[42px] md:text-[24px] font-[LexendDeca] text-[#1176F0]">Meet our Instructors</h1>
                     <p className=" text-[#4a5355] leading-7 md:px-[59px] lg:px-[110px] text-[12px] font-[helvetica] lg:text-[16px] md:text-[14px] pt-3" id="text">We offer a brand new approach to the most basic learning paradigms. Choose from a wide range of learning options and gain new skills! Our school is know.</p>
