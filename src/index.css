@@ -67,6 +67,14 @@
 #cardbg{
   position: relative;
 }
+#review{
+  background: linear-gradient(90deg, #1176F0 0%, rgba(255, 255, 255, 0.5) 100%);
+}
+#review2{
+  background:  linear-gradient(90deg, #1176F0 0%, rgba(255, 255, 255, 0.5) 100%);
+
+}
+
 
 #bg::after{
   content: '';

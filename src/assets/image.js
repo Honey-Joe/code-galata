@@ -20,7 +20,7 @@ export const navcourseimg1 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/
 export const navcourseimg2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/why-banner-v2.png?updatedAt=1723879070794";
 export const card_img= "https://ik.imagekit.io/HoneyJoe/Rainbow%20theme/rainbow%20theme/basics-of-histudy-theme.png?updatedAt=1723578078798"
 export const rainbow_logo ="https://ik.imagekit.io/HoneyJoe/Rainbow%20theme/rainbow%20theme/rainbow-theme-thumb.jpg?updatedAt=1723565416047";
-export const quote2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/qoute.png?updatedAt=1724256217936"
+export const quote2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Clip%20path%20group.png?updatedAt=1724521760792"
 export const profile2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Overlay+Border.png?updatedAt=1724256590301"
 
 // faq section profile 
@@ -46,3 +46,4 @@ export const icon4 = "https://ik.imagekit.io/jjyo3gsee/Rainbow%20Themes/rainbow%
 
 // contact images 
 export const contactimg =  "https://ik.imagekit.io/jjyo3gsee/HI-Study/image/rafiki.png?updatedAt=1724493855282"
+export const reviwe = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/WhatsApp%20Image%202024-07-09%20at%2014.01.57.png?updatedAt=1724522544880"

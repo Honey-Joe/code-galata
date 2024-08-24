@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header/Header'
 import Body from './Body/Body'
 import Footer from '../Footer/Footer'
-import Navbar from '../NavBar/Navbar'
+import Navbar from '../Navbar/Navbar'
 const Courseroute = () => {
   return (
     <div>
