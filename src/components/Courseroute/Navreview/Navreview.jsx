@@ -12,7 +12,7 @@ function AutoPlay() {
     slidesToScroll: 1,
     
     autoplay: false,
-    speed: 4000,
+    speed: 1000,
     autoplaySpeed: 1000,
     cssEase: "linear",
     responsive: [
