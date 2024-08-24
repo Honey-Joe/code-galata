@@ -1,7 +1,7 @@
 import { blup, design, homeProfile, suganth } from "../../assets/image";
 import { Lightbulb, ArrowRight } from "lucide-react";
 
-const Home = () => {
+const Header = () => {
   return (
     <>
         <div className=" 2xl:container mx-auto"> 
@@ -46,4 +46,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Header
