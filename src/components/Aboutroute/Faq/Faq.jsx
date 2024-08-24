@@ -13,7 +13,7 @@ const Faq = () => {
                         </div> 
                         <div className=" absolute xl:absolute md:absolute xl:-right-3 xl:top-[524px] bg-[#002935] lg:absolute lg:top-[400px] lg:right-0 md:right-3 md:top-[604px] py-5 px-7 rounded-lg z-30">
                             <h1 className=" font-[manrope-b] text-[22px] font-bold text-wrap text-white">Contact Us For a <span className=" text-[#1176F0]">Free Learning</span>  <br className=" lg:hidden xl:block"/> Consulting Evaluation</h1>
-                            <div className="flex items-center py-3 px-3 bg-[#1176F0] mt-4 rounded-lg w-fit">
+                            <div className="flex items-center gap-1 py-3 px-3 bg-[#1176F0] mt-4 rounded-lg w-fit">
                                 <Phone className=" stroke-white "/>
                                 <p className="text-white"><a href="tel:+91 80729 48266">+91 80729 48266</a></p>
                             </div>

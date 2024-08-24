@@ -29,7 +29,7 @@ const data = [
 
 const Counter = () => {
     return (
-        <div className="2xl:container px-4 pt-36 pb-8 mx-auto">
+        <div className="2xl:container px-4 lg:pt-36 pt-20 pb-8 mx-auto">
           <div className="w-[90%] lg:w-[90%] mx-auto">
             <div className="">
               <div className="p-[10px] flex flex-col justify-center items-center">
