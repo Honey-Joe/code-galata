@@ -17,6 +17,14 @@
   
 }
 @font-face {
+  font-family: dmsans;
+  src: url(./assets/fonts/DMSans-Regular.ttf);
+}
+@font-face {
+  font-family: dmsans-b;
+  src: url(./assets/fonts/DMSans-Bold.ttf);
+}
+@font-face {
   font-family: helvetica;
   src: url(./assets/font/Helvetica.ttf);
 }

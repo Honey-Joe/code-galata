@@ -3,8 +3,8 @@ import { ArrowRight, Book, Star, Users } from "lucide-react";
 const Topcoursecard = (props) => {
   return (
     <>
-      <div className="2xl:container">
-        <div className="w-[100%] mx-auto grid grid-cols-1 gap-3 bg-white py-5 px-4 rounded-xl mb-10" id="certi">
+      <div className="2xl:container ">
+        <div className="w-[100%] hover:scale-105 hover:shadow-2xl transition shadow-lg mx-auto grid grid-cols-1 gap-3 bg-white py-5 px-4 rounded-xl mb-10" id="certi">
           <div>
             <div>
               <img src={props.imgurl} alt="coures image" className="rounded-lg w-full h-[250px] object-cover"/>
@@ -27,12 +27,13 @@ const Topcoursecard = (props) => {
             </div>
           </div>
           <div>
-            <p className="font-[LexendDeca] text-[22px] text-black hover:text-[#2f57ef] font-bold">{props.coursetitle}</p>
+            <p className="font-[LexendDeca] text-[22px] text-black hover:text-[#1176F0] font-bold">{props.coursetitle}</p>
           </div>
           <div className="flex gap-3 items-center">
             <div className="flex gap-1 items-center">
               <div>
-              <Book size={16} color="#6b7385" strokeWidth={0.75} />              </div>
+              <Book size={16} color="#6b7385" strokeWidth={0.75} />              
+              </div>
               <div>
                 <p className="font-[LexendDeca] text-[#6b7385] text-[14px] ">{props.lesson} Lessons</p>
               </div>
@@ -60,11 +61,11 @@ const Topcoursecard = (props) => {
                 id="an"
               >
                 <div className="">
-                  <p className="font-[LexendDeca]  text-black text-[14px] group-hover:text-[#2f57ef] flex gap-2">
+                  <p className="font-[LexendDeca]  text-black text-[14px] group-hover:text-[#1176F0] flex gap-2">
                     Learn More <ArrowRight></ArrowRight>
                   </p>
                 </div>
-                <div className=" text-slate-600 group-hover:text-[#2f57ef] bg-black"></div>
+                <div className=" text-slate-600 group-hover:text-[#1176F0] bg-black"></div>
               </div>
               </div>
               

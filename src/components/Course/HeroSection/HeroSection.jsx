@@ -5,7 +5,7 @@ const HeroSection = () => {
     <>
     {/* bg-[#7bb4fa] */}
       <div className=" 2xl:container mx-auto ">
-        <div className=" lg:w-[85%] mx-auto w-[90%]">
+        <div className=" lg:w-[90%] mx-auto w-[90%] mt-20">
           <div className=" flex flex-col items-center justify-center py-10">
             <div className=" relative">
               <h1 className=" text-[#1176F0] font-[LexendDeca] text-[16px] font-bold bg-[#cbd4fbdf] w-fit py-3 px-7 rounded-full mb-5 ">CODE GALLATA</h1>
