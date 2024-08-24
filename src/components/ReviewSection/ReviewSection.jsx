@@ -11,7 +11,7 @@ function ReviewSection() {
     slidesToShow: 3,
     slidesToScroll: 1,
 
-    autoplay: true,
+    autoplay: false,
     speed: 4000,
     autoplaySpeed: 1000,
     cssEase: "linear",
