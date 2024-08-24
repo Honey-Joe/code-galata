@@ -36,8 +36,7 @@ const Topcourse = () => {
             </div>
           </div>
         </div>
-        <div className="w-[80%] grid grid-cols-1 lg:grid-cols-3 mx-auto gap-3">
-            
+        <div className="w-[90%] grid grid-cols-1 lg:grid-cols-3 mx-auto gap-7">
               {
                 Coursecarddata.map((e)=>{
                   return(

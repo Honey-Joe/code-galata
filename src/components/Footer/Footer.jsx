@@ -42,7 +42,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className=' flex lg:justify-start lg:pl-12 '>
+            <div className=' flex lg:justify-start lg:pl-20 '>
               <div className=' flex flex-col gap-4 '>
                 <h1 className=' text-white font-[lexend] text-[24px] font-bold'>
                 Courses
