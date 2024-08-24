@@ -46,13 +46,16 @@ function ReviewSection() {
     <>
       <div className="2xl:container mx-auto">
         <div className="w-[90%] mx-auto grid grid-cols-1 my-11 gap-4 px-5 py-2">
-          <div className="flex items-center justify-center flex-col gap-3">
-            <div className="bg-[#CBD4FB] px-4 rounded-full py-2">
-                <p className="font-[LexendDeca] text-[14px] font-medium text-[#1176F0]">Testimonial</p>
+          <div className="flex items-center">
+            <div className='px-5 py-[5px] rounded-3xl bg-[#2581F2] relative left-3'>
+
+                </div>
+            <div className="px-4 py-2 border-[1px] border-[#2581F2] rounded-3xl">
+                <p className="font-[poppins] font-bold text-base text-center">Testimonial</p>
             </div>
-            <div>
-                <p className="text-[30px] font-[LexendDeca] font-bold">What Our Customer Says</p>
-            </div>
+          </div>
+          <div>
+            <p className="font-[poppins] font-bold text-[42px]">WHAT OUR <span className="text-[#2581f2] underline">CUSTOMER SAYS</span></p>
           </div>
           <div className="slider-container ">
             <Slider {...settings}>
