@@ -13,7 +13,7 @@ const Curriculam = () => {
                 <h1 className=" font-semibold text-[22px] font-[LexendDeca] text-[#082a5e]">Course Curriculum</h1>
                 <div className=" pt-5 group">
                     <button  onClick={()=> setAccordion(!accordion)} className={`flex items-center justify-between w-full p-3 rounded-md border-2  ${accordion ? 'rounded-bl-none rounded-br-none text-[#1363df] bg-[#e3e5eb] transition ease-in-out' : 'rounded-md'}`}>
-                        <span className=" font-semibold font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Intoductions & Inspiration</span>
+                        <span className=" font-medium font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Intoductions & Inspiration</span>
                         
                         <span><ChevronRight className={`${accordion? '-rotate-90 transition stroke-[#1363df]' : ' rotate-0 transition stroke-[#1363df]'}`}/></span>
                     </button>
@@ -90,7 +90,7 @@ const Curriculam = () => {
                 <br />
                 <div className=" pt-0 group">
                     <button  onClick={()=> setBasic(!basic)} className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${basic ? 'rounded-bl-none rounded-br-none text-[#1363df] bg-[#e3e5eb] '  : 'rounded-md'}`}>
-                        <span className=" font-semibold font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Sketching</span>
+                        <span className=" font-medium font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Sketching</span>
                         
                         
                     </button>
@@ -99,7 +99,7 @@ const Curriculam = () => {
                 <br />
                 <div className=" pt-0 group">
                     <button  onClick={()=> setBasic1(!basic1)} className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${basic1 ? 'rounded-bl-none rounded-br-none text-[#1363df] bg-[#e3e5eb] '  : 'rounded-md'}`}>
-                        <span className=" font-semibold font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Project : Sketching a EDTECH APP & WEBSITE</span>
+                        <span className=" font-medium font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Project : Sketching a EDTECH APP & WEBSITE</span>
                         
                         
                     </button>
@@ -108,7 +108,7 @@ const Curriculam = () => {
                 <br />
                 <div className=" pt-0 group">
                     <button  onClick={()=> setBasic2(!basic2)} className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${basic2 ? 'rounded-bl-none rounded-br-none text-[#1363df] bg-[#e3e5eb] '  : 'rounded-md'}`}>
-                        <span className=" font-semibold font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Figma Basics</span>
+                        <span className=" font-medium font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Figma Basics</span>
                         
                         
                     </button>
@@ -117,7 +117,7 @@ const Curriculam = () => {
                 <br />
                 <div className=" pt-0 group">
                     <button  onClick={()=> setBasic3(!basic3)} className={`flex items-center justify-between w-full  p-3 rounded-md border-2  ${basic3 ? 'rounded-bl-none rounded-br-none text-[#1363df] bg-[#e3e5eb] '  : 'rounded-md'}`}>
-                        <span className=" font-semibold font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Figma Tool</span>
+                        <span className=" font-medium font-[LexendDeca] text-[18px] transition-colors ease-in-out group-hover:text-[#1363df]">Figma Tool</span>
                         
                         <span><ChevronRight className={`${basic3? '-rotate-90 transition stroke-[#1363df]' : ' rotate-0 transition stroke-[#1363df]'}`}/></span>
                     </button>
