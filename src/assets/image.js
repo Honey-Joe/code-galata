@@ -53,3 +53,8 @@ export const header440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Fram
 export const abouth720 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20781.png?updatedAt=1724571925948"
 export const abouth = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20929%20(1).png?updatedAt=1724571854930"
 export const abouth440 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/Frame%20780.png?updatedAt=1724571926190"
+
+export const acheivmentcard = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-1.png?updatedAt=1724602732946"
+export const acheivmentcard2 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-2.png?updatedAt=1724602732946"
+export const acheivmentcard3 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-3.png?updatedAt=1724602732946"
+export const acheivmentcard4 = "https://ik.imagekit.io/HoneyJoe/Eduvault/Eduvault/icon-4.png?updatedAt=1724602732946"

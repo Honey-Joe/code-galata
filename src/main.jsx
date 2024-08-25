@@ -14,7 +14,7 @@ const Applayout  = ()=>{
     <>
     <Navbar></Navbar>
     <Header></Header>
-    {/* <Body></Body> */}
+    <Body></Body>
     <Footer></Footer>
     </>
   )
