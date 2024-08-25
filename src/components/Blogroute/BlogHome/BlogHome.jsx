@@ -57,10 +57,10 @@ const BlogHome = () => {
                         <HeaderCard />
                     </div>
                 </div>
-                <div className=" w-10 absolute top-[12%] right-[50%]">
+                <div className=" w-10 absolute top-[12%] right-[50%] xl:block hidden">
                     <img src={sideblub} alt="blub" className=""/>
                 </div>
-                <div className="animate-pulse duration-700 absolute top-[12%] right-[10%] border border-[#553CDF] rounded-md">
+                <div className="animate-pulse duration-700 absolute top-[12%] right-[10%] border border-[#553CDF] rounded-md xl:block hidden">
                     <div className=" flex gap-3 items-start p-1 px-2">
                         <div>
                             <BookOpenText className=" w-12 h-12 stroke-white stroke-1 p-1 rounded-md bg-[#553CDF]"/>
