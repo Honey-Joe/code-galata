@@ -142,6 +142,9 @@
   transition: width 0.5s;
 }
 
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

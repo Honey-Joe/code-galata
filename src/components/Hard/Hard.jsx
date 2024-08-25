@@ -5,8 +5,8 @@ const Hard = () => {
     <div className="2xl:container mx-auto pt-36">
         <div className=" w-[90%] mx-auto">
             <div className="text-center mb-10 space-y-4">
-                <h1 className="text-[19px] font-bold">WORK PROCESS</h1>
-                <h2 className="text-[40px]">
+                <h1 className="text-[19px] font-[poppins] font-bold">WORK PROCESS</h1>
+                <h2 className="text-[40px] font-[poppins]">
                 Working Process For <span className="text-blue-500">Technology</span>
                 </h2>
             </div>

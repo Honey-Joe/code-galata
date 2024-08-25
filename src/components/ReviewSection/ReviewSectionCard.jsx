@@ -23,6 +23,10 @@ const ReviewSectionCard = () => {
                   <Star size={16} color='#2581F2' fill='#2581F2'></Star>
                   <Star size={16} color='#2581F2' fill='#2581F2'></Star>
                 </div>
+                <div className=' flex flex-col items-center justify-center'>
+                  <p className=' font-bold font-[poppins]'>SUGANTH PV</p>
+                  <p className=' font-[poppins] text-[14px]'>SRI SAIRAM ENGINEERING COLLEGE</p>
+                </div>
                 </div>
                 <div className='flex gap-2 justify-center items-center'>
                   <div className='h-[3px] w-[143px]' id='review2'></div>

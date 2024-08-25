@@ -1,7 +1,33 @@
 import { profile3, shaped, shaper } from "../../../assets/image"
 import FaqAccodion from "../Accodion/FaqAccodion"
 import { Phone } from "lucide-react"
+import { useState } from "react"
 const Faq = () => {
+    const [open, setOpen] = useState(false)
+    const toggle = (index) =>{
+        if(open === index){
+            return setOpen(null)
+        }
+        setOpen(index)
+    }
+    const accordionData = [
+        {
+            title:"1. Why choose us for your education?",
+            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+        },
+        {
+            title:"2. Why choose us for your education?",
+            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+        },
+        {
+            title:"3. What We Offer To You?",
+            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+        },
+        {
+            title:"How We Provides Service For You?",
+            desc:"We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
+        },
+    ]
   return (
     <>
         <div className=" 2xl:container mx-auto bg-white pb-20 py-14">
@@ -30,18 +56,16 @@ const Faq = () => {
                             </div>
                             <p className="text-[48px] font-[manrope-b] leading-[57px] pt-4 font-bold">Frequently Asked <br /> Questions</p>
                             <p className=" pt-5 font-[manrope] text-[#6c6f70] text-[16px] pb-5" >Architect client-centered total linkage for intuitive benefits. Dynamically restore convergence before real-time restore.</p>
-                            <FaqAccodion title  = "1. Why choose us for your education?"
-                            content = "We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
-                            />
-                            <FaqAccodion title  = "2. Why choose us for your education?"
-                            content = "We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
-                            />
-                            <FaqAccodion title  = "3. What We Offer To You?"
-                            content = "We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
-                            />
-                            <FaqAccodion title  = "How We Provides Service For You?"
-                            content = "We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site."
-                            />
+                            {
+                                accordionData.map((data, index) =>{
+                                    return(
+                                        <>
+                                            <FaqAccodion key={index} open={index===open} title={data.title} desc={data.desc} toggle={()=>toggle(index)}/>
+                                        </>
+                                    )
+                                })
+                            }
+                           
                         </div>
                     </div>
                 </div>
