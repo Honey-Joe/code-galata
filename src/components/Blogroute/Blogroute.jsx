@@ -5,9 +5,7 @@ import BlogHome from "./BlogHome/BlogHome"
 const Blogroute = () => {
   return (
     <>
-        <Navbar/>
         <BlogHome/>
-        <Footer/>
     </>
   )
 }

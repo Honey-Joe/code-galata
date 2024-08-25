@@ -17,7 +17,6 @@ const Applayout  = ()=>{
     {/* <Header></Header> */}
     <Blogroute/>
     {/* <Body></Body> */}
-    <Header></Header>
     <Body></Body>
     <Footer></Footer>
     </>
