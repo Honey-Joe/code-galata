@@ -29,8 +29,6 @@ const ReviewSectionCard = () => {
                   <div><img src={reviwe} alt="" /></div>
                   <div className='h-[3px] w-[143px]' id='review'></div>
                 </div>
-                
-                
               </div>
             </div>
         </div>  
