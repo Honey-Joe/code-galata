@@ -14,9 +14,14 @@ const Applayout  = ()=>{
   return(
     <>
     <Navbar></Navbar>
+<<<<<<< HEAD
     {/* <Header></Header> */}
     <Blogroute/>
     {/* <Body></Body> */}
+=======
+    <Header></Header>
+    <Body></Body>
+>>>>>>> 1fc933681f5a6c23ad4ca1c9cef26564f782dd6e
     <Footer></Footer>
     </>
   )

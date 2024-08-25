@@ -8,7 +8,6 @@ const Aboutroute = () => {
     <>
     <Navbar></Navbar>
     <Header></Header>
-
     <Body></Body>
 
     <Footer></Footer>
