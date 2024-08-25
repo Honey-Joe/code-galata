@@ -29,7 +29,7 @@ const Navbar = () => {
                       <Link to={"/contact"}>Contact</Link>
                     </li>
                     <li className="text-[15px] font-bold font-[poppins] p-2 text-center lg:p-0 hover:text-[#1176F0]">
-                      <p>Blog</p>
+                      <Link to={"/Blog"}>Blog</Link>
                     </li>
                     <li className="text-[15px] font-bold font-[poppins] p-2 text-center lg:p-0  px-3 py-2 rounded-lg flex items-center  text-white justify-center">
                       <button className="bg-blue-500 px-8 py-2 hover:bg-white border border-[#1176F0] hover:text-[#1176F0] rounded-full font-[poppins] font-bold text-white ">Log in </button>
