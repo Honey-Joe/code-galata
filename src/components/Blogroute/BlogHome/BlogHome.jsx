@@ -53,7 +53,7 @@ const BlogHome = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=" md:order-2 order-1 lg:flex lg:justify-center">
+                    <div className=" md:order-2 lg:flex lg:justify-center flex justify-center ">
                         <HeaderCard />
                     </div>
                 </div>

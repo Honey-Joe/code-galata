@@ -5,8 +5,8 @@ import { NotepadText,BookMarked, Star, Users } from "lucide-react"
 const HeaderCard = () => {
   return (
     <>
-        <div className=" grid grid-cols-1 lg:grid-cols-2 justify-center relative lg:gap-20 xl:gap-14">
-            <div className=" p-6 bg-[#F9F8FF] rounded-md w-fit my-5 md:my-28 group">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-center relative lg:gap-20 xl:gap-14">
+            <div className=" p-6 bg-[#F9F8FF] rounded-md w-fit my-5 lg:my-28 md:my-10 group">
                 <div className=" inline-block overflow-hidden relative  ">
                     <img src={homeri1} alt="Image" className="group-hover:scale-110 transition duration-300 ease-in-out"/>
                     <BookMarked className=" w-8 h-8 absolute top-4 right-4 stroke-2 stroke-white group-hover:hover:bg-[#1176F0] transition-colors duration-300 bg-[#504f5134] p-2 rounded-full" />
