@@ -13,7 +13,7 @@ const Navcard = () => {
                     <img src={quote2} alt="" />
                 </div>
                 <div>
-                  <p className='text-center font-[poppins] '>Lorem ipsum dolor sit amet consectetur. A sapien donec lacus nunc integer vitae vitae. Gravida nulla in tincidunt lectus consectetur sed ante.</p>
+                  <p className='text-center font-[poppins] text-[12px]'>Lorem ipsum dolor sit amet consectetur. A sapien donec lacus nunc integer vitae vitae. Gravida nulla in tincidunt lectus consectetur sed ante.</p>
                 </div>
                 <hr />
                 <div className='flex justify-center gap-3'>

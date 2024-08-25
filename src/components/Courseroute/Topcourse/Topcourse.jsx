@@ -5,7 +5,7 @@ const Topcourse = () => {
   return (
     <>
       <div classname="2xl:container">
-        <div className="w-[80%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
+        <div className="w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto my-11">
           <div className="flex items-start flex-col gap-3">
             <div className="bg-[#FAECF1] px-4 rounded-full py-2 flex items-start">
               <p className="font-[LexendDeca] text-[14px] font-medium text-[#db7093]">

@@ -186,7 +186,7 @@ const Righttab = () => {
                         </div>
                         <div className="flex items-end">
                           <p className="text-[#6b7385] font-[LexendDeca] text-[13px]">
-                            For The Education Industry Online Or Offline
+                            School students
                           </p>
                         </div>
                       </div>
@@ -196,7 +196,7 @@ const Righttab = () => {
                         </div>
                         <div>
                           <p className="text-[#6b7385] font-[LexendDeca] text-[13px]">
-                            Tutor LMS, Elementor + ACF Pro + WooCommerce
+                            College Students
                           </p>
                         </div>
                       </div>
@@ -206,7 +206,7 @@ const Righttab = () => {
                         </div>
                         <div>
                           <p className="text-[#6b7385] font-[LexendDeca] text-[13px]">
-                            Fast, Lightweight Education WordPress Theme
+                            Freshers
                           </p>
                         </div>
                       </div>
@@ -234,7 +234,7 @@ const Righttab = () => {
                 <p className="font-[LexendDeca] text-[#212327] text-[13px] ">Card contact label</p>
                 <div className="flex items-center justify-center gap-3 bg-[#E6DBFC] px-10 py-3 rounded-3xl">
                   <Phone></Phone>
-                  <div><p className="font-[LexendDeca] text-[14px] text-[#192335] font-semibold">Call us: <span className="font-bold text-blue-600 font-[LexendDeca] ">44455566677</span></p></div>
+                  <div><p className="font-[LexendDeca] text-[14px] text-[#192335] font-semibold">Call us: <span className="font-bold text-blue-600 font-[LexendDeca] ">+91 80729 48266</span></p></div>
                 </div>
               </div>
               
