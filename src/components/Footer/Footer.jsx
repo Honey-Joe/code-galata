@@ -49,10 +49,10 @@ const Footer = () => {
                 </h1>
                 <ul className=' text-[#B2BDcD] pt-4'>
                   <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium  group-hover:text-[#1363DF] "> Life Coach</a></li>
-                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] "> Business Coach</a></li>
-                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] ">Health Coach</a></li>
-                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] "> Development</a></li>
-                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] "> Web Design</a></li>
+                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] "> UI/UX Figma</a></li>
+                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] ">Web Design</a></li>
+                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] "> Java</a></li>
+                  <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] "> Web Development</a></li>
                   <li className=' pb-4 flex items-center group'><div className=" w-0 h-1 rounded-lg bg-[#1363DF] group-hover:w-4" id="move"></div><a href="" className=" font-[hindu] font-medium group-hover:text-[#1363DF] ">SEO Optimize</a></li>
                 </ul>
               </div>
@@ -84,7 +84,7 @@ const Footer = () => {
             <div className=" 3xl:container w-[90%] xl:w-[90%] mx-auto">
               <div className=" lg:grid lg:grid-cols-2 grid-cols-1 flex flex-col items-center ">
                 <div>
-                  <p className=" text-[#8798b3] text-[15px] font-[lexend]">Copyright © 2024 eduvalt. All rights reserved.</p>
+                  <p className=" text-[#8798b3] text-[15px] font-[lexend]">Copyright © 2024 code galatta. All rights reserved.</p>
                 </div>
                 <div className=" flex gap-2 lg:justify-end md:pt-3 lg:p-0">
                   <p className=" text-[#8798b3] text-[15px] font-[lexend  text-[15px] font-[lexend] font-medium">Privacy Policy</p>
